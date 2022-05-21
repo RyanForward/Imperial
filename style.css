@@ -1,0 +1,279 @@
+
+@media only screen and (max-width: 500px) {
+
+    @keyframes colors {
+
+        0%{
+            background-position: 0% 50%;
+        }
+        25%{
+            background-position: 50% 50%;
+        }
+        50%{
+            background-position: 100% 50%;
+        }
+        75%{
+            background-position: 50% 50%;
+        }
+        100%{
+            background-position: 50% 0%;
+        }
+
+    }
+
+    html, body{
+        background:linear-gradient(to bottom, black, #00D85B);
+        animation: colors 5s ease-in infinite;
+        width: 100vw;
+        height: 300vh;
+        overflow-x: hidden;
+    }
+
+    @font-face {
+        font-family: Anton;
+        src: url(fontes/Anton/Anton-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: odibee;
+        src: url(fontes/Odibee_Sans/OdibeeSans-Regular.ttf);
+    }
+
+    @font-face {
+        font-family: Bebas;
+        src: url(fontes/Bebas_Neue/BebasNeue-Regular.ttf);
+    }
+
+    .title{
+        color: white;
+        font-family: Bebas;
+        position: absolute;
+        top: 2vh;
+        right: 8vw;
+        font-size: 7rem;
+        font-weight: 400;
+        letter-spacing: 0px;
+    }
+
+    .imperiallogo{
+        top: 5vh;
+        height: 1px;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .players{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 100vw;
+        left: -1vw;
+        height: 200vh;
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+        
+    }
+
+    .player{
+        width: 80vw;
+        display: flex;
+        margin-left: auto;
+        margin-right: auto;
+        flex-direction: row;
+        align-items:center;
+        margin-bottom: 18vh;
+    }
+
+    .ID{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .player img{
+        border-radius: 100%;
+        border: 4px outset rgb(1, 138, 1);
+        background: linear-gradient(to top,  rgba(0, 0, 0, 0.432), #0e9948ab);
+        height: 20vh;
+        width: 40vw;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        z-index: 1;
+
+        padding-left: -20px;
+        padding-right: -20px;
+        
+    }
+
+    
+    
+
+
+    .player-name{
+        font-family: Bebas;
+        z-index: 1;
+        color: white;
+        height: 3vh;
+        width: 50vw;
+        text-align: center;
+        font-size: 1.6rem;
+        margin-right: auto;
+        padding: 20px;
+        text-align: left;
+    }
+
+    .player-text{
+        font-family: Bebas;
+        z-index: 1;
+        color: white;
+        margin-right: auto;
+        margin-left: auto;
+        font-size: 1.2rem;
+        
+        padding-left: -20px;
+        padding-right: -20px;
+    }
+
+    .comentario0{
+        position: absolute;
+        top: 72vh;
+        left: 7vw;
+        font-size: 3rem;
+        color: white;
+        mix-blend-mode: overlay;
+        font-family: odibee;
+        transform: rotateZ(-10deg);
+    }
+
+    .comentario1{
+        position: absolute;
+        top: 120vh;
+        left: 30vw;
+        z-index: 1;
+        font-size: 3rem;
+        color: white;
+        mix-blend-mode:overlay;
+        font-family: odibee;
+        transform: rotateZ(10deg);
+    }
+
+    .backstyle{
+        background-image: linear-gradient(to right,  #0329139c , rgb(0, 0, 0));
+        z-index: 0;
+        width:198vw;
+        height: 98vh;
+        clip-path: polygon(50% 0%, 0% 100%, 100% 65%);
+        top: -2vh;
+        left: 0vw;
+        position: absolute;
+        transform:rotateZ(45deg)
+    }
+
+    .backstyle2{
+        background-image: linear-gradient(to right,  #0329139c , rgb(0, 0, 0));
+        z-index: 0;
+        width: 100vw;
+        height: 100vh;
+        clip-path: polygon(60% -20%, 0 62%, 100% 100%);
+        top:50vh;
+        right: -10vw;
+        transform: rotateZ(-90deg);
+        position: absolute;
+    }
+
+    .backstyle3{
+        background-image: linear-gradient(to right,  #0329139c , rgb(0, 0, 0));
+        z-index: 1;
+        width: 100vw;
+        height: 100vh;
+        clip-path: polygon(00% 0%, 100% 50%, 120% 100%, 25% 100%, 0% 50%, 25% 0%);
+        top:94vh;
+        right: -10vw;
+        transform: rotateZ(-30deg);
+        position: absolute;
+    }
+
+    .transitionbar0{
+        width: 200vw;
+        height: 0.8vh;
+        background: linear-gradient(to right, black, rgb(5, 121, 5), rgb(1, 71, 1));
+        animation: colors 5s ease-in infinite;
+        transform:rotateZ(-18deg);
+        position: absolute;
+        top: 32vh;
+        background-size: 200% 200%;
+        left: -60vw;
+    }
+
+    .transitionbar1{
+        width: 200vw;
+        height: 0.8vh;
+        background: linear-gradient(to right, black, rgb(5, 121, 5), rgb(1, 71, 1));
+        animation: colors 5s ease-in infinite;
+        transform:rotateZ(26deg);
+        position: absolute;
+        top: 66vh;
+        background-size: 200% 200%;
+        left: -60vw;
+    }
+
+    
+    .transitionbar2{
+        width: 200vw;
+        height: 0.8vh;
+        background: linear-gradient(to right, black, rgb(4, 63, 4), rgb(1, 71, 1));
+        animation: colors 5s ease-in infinite;
+        transform:rotateZ(-9deg);
+        position: absolute;
+        top: 83vh;
+        background-size: 200% 120%;
+        left: -60vw;
+    }
+
+    
+    .transitionbar3{
+        width: 146vw;
+        z-index: 1;
+        height: 0.8vh;
+        background: linear-gradient(to right, black, rgb(75, 209, 13), rgb(13, 56, 13));
+        animation: colors 5s ease infinite;
+        transform:rotateZ(15deg);
+        position: absolute;
+        top: 121vh;
+        background-size: 200% 120%;
+        left: -60vw;
+    }
+
+    
+    .transitionbar4{
+        width: 43vw;
+        z-index: 2;
+        height: 0.8vh;
+        background: linear-gradient(to right, black, rgb(75, 209, 13), rgb(13, 56, 13));
+        animation: colors 5s ease infinite;
+        transform:rotateZ(60deg);
+        position: absolute;
+        top: 140vh;
+        background-size: 200% 120%;
+        left: 72vw;
+    }
+
+    
+    .transitionbar5{
+        width: 126vw;
+        z-index: 0;
+        height: 0.8vh;
+        background: linear-gradient(to right, black, rgb(75, 209, 13), rgb(13, 56, 13));
+        animation: colors 5s ease infinite;
+        transform:rotateZ(46deg);
+        position: absolute;
+        top: 170vh;
+        background-size: 200% 120%;
+        left: -40.5vw;
+    }
+
+}
