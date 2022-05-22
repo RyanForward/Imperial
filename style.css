@@ -25,7 +25,7 @@
         background:linear-gradient(to bottom, black, #00D85B);
         animation: colors 5s ease-in infinite;
         width: 100vw;
-        height: 300vh;
+        height: 280vh;
         overflow-x: hidden;
     }
 
