@@ -22,7 +22,7 @@
     }
 
     html, body{
-        background:linear-gradient(to bottom, black, #00D85B);
+        background:linear-gradient(to bottom, black, red);
         animation: colors 5s ease-in infinite;
         width: 100vw;
         height: 280vh;
