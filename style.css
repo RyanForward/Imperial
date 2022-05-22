@@ -22,10 +22,10 @@
     }
 
     html, body{
-        background:linear-gradient(to bottom, black, red);
+        background:linear-gradient(to bottom, black, #00D85B);
         animation: colors 5s ease-in infinite;
         width: 100vw;
-        height: 280vh;
+        height: 300vh;
         overflow-x: hidden;
     }
 
@@ -111,7 +111,6 @@
 
 
     .player-name{
-        border: 1px solid white;
         font-family: Bebas;
         z-index: 1;
         color: white;
