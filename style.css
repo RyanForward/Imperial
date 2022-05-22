@@ -118,9 +118,9 @@
         z-index: 1;
         color: white;
         height: 3vh;
-        width: 50vw;
+        width: 70vw;
         text-align: center;
-        font-size: 1.6rem;
+        font-size: 1.4rem;
         margin-right: auto;
         padding: 20px;
         text-align: left;
@@ -132,7 +132,7 @@
         color: white;
         margin-right: auto;
         margin-left: auto;
-        font-size: 1.2rem;
+        font-size: 1rem;
         
         padding-left: -20px;
         padding-right: -20px;
